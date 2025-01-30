@@ -106,7 +106,23 @@ A Python application that automates the generation and evaluation of personalize
     **Note**: Be cautious with your session cookie as it grants access to your LinkedIn account. Do not share it and consider using environment variables or secure storage mechanisms to protect it.
 
 ## Usage
+### Interactive Mode
 
+you can  run the `main.py` script in an interactive mode. This allows you to input a single LinkedIn profile URL directly into the terminal. Once you provide the URL, the script will:
+
+- Authenticate with LinkedIn using your credentials.
+- Scrape the specified LinkedIn profile to gather relevant information.
+- Generate a personalized connection note using the profile data.
+- Evaluate the generated note based on predefined criteria, such as length, specificity, and tone.
+- Display the generated note and its evaluation results directly in the terminal.
+
+To run the script in this mode, execute the following command:
+
+```bash
+python main.py
+```
+
+### Processing multiple profiles:
 1. **Prepare the Configuration File**
 
     Create a `linkedin_profiles.json` file in the root directory with the following structure, listing all LinkedIn profile URLs you want to process:
