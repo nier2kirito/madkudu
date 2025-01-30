@@ -154,20 +154,22 @@ A comprehensive test suite ensures that all components of the application functi
 
 ## Testing Suite Metrics
 
-After running the tests, you will receive a summary of evaluation metrics. An example output might look like:
+After running the tests, you will receive a summary of evaluation metrics. The results below were obtained after running the test on 11 profiles.
 
-INFO:main:Processed 11 profiles
-INFO:main:Successful Evaluations:
-length_ok: 3
-specific_details_ok: 4
-tone: 11
-professional text: 11
-INFO:main:Failed Evaluations:
-length_ok: 8
-specific_details_ok: 7
-tone: 0
-professional text: 0
+```plaintext
+INFO:main:Processed 11 profiles  
+INFO:main:Successful Evaluations:  
+length_ok: 3  
+specific_details_ok: 4  
+tone: 11  
+professional text: 11  
 
+INFO:main:Failed Evaluations:  
+length_ok: 8  
+specific_details_ok: 7  
+tone: 0  
+professional text: 0  
+```
 
 ### Metric Descriptions
 
