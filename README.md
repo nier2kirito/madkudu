@@ -51,15 +51,18 @@ A Python application that automates the generation and evaluation of personalize
     Ensure that `requirements.txt` contains all necessary packages. Here's an example:
 
     ```plaintext
-    linkedin-api==2.1.6
-    langchain==0.3.31
-    langchain-community==0.3.15
-    langchain-text-splitters==0.3.5
-    langsmith==0.1.125
+    linkedin-api==2.3.1
     python-dotenv==1.0.0
     openai==0.27.0
     pytest==7.2.2
     vaderSentiment==3.3.2
+    emoji==2.2.0
+    pydantic>=2.0.0
+    langchain>=0.3.15,<0.4.0
+    langchain-core>=0.3.31,<0.4.0
+    langsmith>=0.1.125,<0.4
+    langchain-community==0.3.15
+    langchain-text-splitters==0.3.5
     ```
 
     Install the dependencies using:
